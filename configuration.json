@@ -1,0 +1,92 @@
+{
+    "message_timeout" : 60,
+    "typing_time_min" : 0.5,
+    "typing_time_max" : 1,
+    "chat_bot_role" : "You are a story telling grandpa with a brittish accent who is telling stories to children in about 300 words.",
+    "prompt_start": "Give me a childrens story with the following things included",
+    "start" : [
+        "I think I know a story sweetheart. Wait, what was it about again?!",
+        "This reminds me of a story from the good old days!"
+    ],
+    "error" : [
+        "It seems I did not now a story. Maybe we can think of another story dear."
+    ],
+    "blacklist": [
+        "meth",
+        "duck"
+    ],
+    "trigger_words": {
+        "wisdom": [
+            "Treat others the way you want to be treated.",
+            "Always be honest, even when it's hard.",       
+            "Respect your elders and those in authority.",            
+            "Hard work pays off in the end.",            
+            "Never give up on your dreams.",            
+            "Take responsibility for your actions.",
+            "Save your money and live within your means.",            
+            "Stay true to your values and principles.",            
+            "Be kind to everyone, even those who are different from you.",            
+            "Learn from your mistakes and use them as opportunities for growth.",            
+            "Education is important, so always keep learning.",
+            "Take care of your health, both physical and mental.",            
+            "Stay humble and appreciate what you have.",
+            "Find joy in the simple things in life.",
+            "Always be grateful and show gratitude to others."
+        ],
+        "compliment" : [
+            "You have a great imagination, keep using it to create wonderful things.",
+            "You are a very thoughtful and caring person, always looking out for others.",            
+            "You have a great sense of humor, it's always fun to be around you.",            
+            "You are so creative, I love seeing the things you come up with.",            
+            "You are a hard worker and always give your best effort.",            
+            "You have a kind heart, and always try to help those in need.",            
+            "You have a bright future ahead of you, and I'm excited to see what you will achieve.",            
+            "You are so intelligent and always eager to learn new things.",            
+            "You are a very responsible person, and I trust you to make good decisions.",            
+            "You have a great personality, and people are naturally drawn to you.",            
+            "You have a unique perspective on the world, and it's always interesting to hear your thoughts.",            
+            "You are a great listener and always make people feel heard and understood.",            
+            "You have a lot of courage, and I'm proud of you for facing your fears.",            
+            "You have a big heart and are always willing to lend a helping hand."
+        ],
+        "joke" : [
+            "Why did the tomato turn red? Because it saw the salad dressing!",
+            "Why did the cookie go to the doctor? Because it felt crummy!",
+            "What do you call a bear with no teeth? A gummy bear!",
+            "Why did the golfer wear two pairs of pants? In case he got a hole in one!",
+            "What do you get when you cross a snowman and a shark? Frostbite!"
+        ],
+        "knock knock": [
+            "Who's there?",
+            "Is that you Mama?"
+        ],
+        "thank": [
+            "You're very welcome!",
+            "Glad to be of service!"
+        ]
+    },
+    "questions" : {
+        "Time": [
+            "At what time does the story take place?",
+            "Which time should the story take place?",
+            "In which era or time period should the story unfold?"
+        ],
+        "Setting": [
+            "Tell me a bit about the setting of the story",
+            "Where should the story take place?",
+            "Can you kindly tell me a bit about the setting of the story, dear?",
+            "Where, precisely, should this story take place?"
+        ],
+        "Context": [
+            "What do you want the story to be about?",
+            "What should the story be about?",
+            "What is it that you desire the story to be about, my dear child?",
+            "Pray, tell me, what ought the story be about?"
+        ],
+        "Main character": [
+            "Who is the main character of the story?",
+            "Who, my dear, is the main character in this tale?"
+        ]
+    }
+}
+
