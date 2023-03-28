@@ -88,6 +88,13 @@ class DiscordBot():
         print(DiscordBot.bot.user.name)
 
     @bot.event
+    async def on_member_join(member):
+        await member.create_dm()
+        await member.dm_channel.send(
+            f'Hi {member.name}, I am Percy, an exceptional storyteller living in the heart of Antarctic. Welcome to my story land! I can share you a story if you politely ask whenever you want. But let me finish my fish sandwich first.'
+        )
+
+    @bot.event
     async def on_message(message):
         # Return if message is from the bot itself to prevent the bot talking to itself
         # Also return if the user is engaged in story creation
@@ -174,4 +181,5 @@ class DiscordBot():
                 await DiscordBot.reply(message=message, response=error_message)
                 await message.channel.send(error_message)
             finally:
+                # Reset the story telling flag
                 DiscordBot.story_telling[message.author.id] = False

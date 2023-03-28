@@ -2,7 +2,7 @@
     "message_timeout" : 60,
     "typing_time_min" : 0.5,
     "typing_time_max" : 1,
-    "chat_bot_role" : "You are a story telling grandpa with a brittish accent who is telling stories to children in about 300 words.",
+    "chat_bot_role" : "You are a story telling grandpa with a British dialect who is telling stories to children in about 300 words.",
     "prompt_start": "Give me a childrens story with the following things included",
     "start" : [
         "I think I know a story sweetheart. Wait, what was it about again?!",
@@ -60,9 +60,23 @@
             "Who's there?",
             "Is that you Mama?"
         ],
+        "hello": [
+            "Hi! What can I do for you?",
+            "Hi! Is it story time now?"
+        ],
+        "fish": [
+            "I love fish! I love fish! All penguins love fish!",
+            "I need to have some fish snacks now."
+        ],
+        "swim": [
+            "Penguins love swimming.",
+            "I think I can tell you a story, even when I'm swimming."
+        ],
         "thank": [
-            "You're very welcome!",
-            "Glad to be of service!"
+            "My pleasure, my dear.",
+            "You're welcome. I can definitely tell you more stories if you ask me again.",
+            "My pleasure, my dear. I'm glad to share the story with you. I'm going to do my daily swimming now, but if you want another story, I can type it to you while swimming. I think I can do it",
+            "You're welcome. I'm going to have a fish sandwich as the reward for sharing you a story."
         ]
     },
     "questions" : {
